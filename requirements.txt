@@ -1,5 +1,5 @@
-Django==5.0.3
-djangorestframework==3.14.0
-gunicorn==21.2.0
-Pillow==10.2.0
-openpyxl==3.1.2
+Django
+djangorestframework
+gunicorn
+Pillow
+openpyxl
