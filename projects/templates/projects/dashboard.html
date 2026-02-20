@@ -1,0 +1,13 @@
+<h1>Project Dashboard</h1>
+<p>Total Projects: {{ total_projects }}</p>
+<p>Completed Projects: {{ completed }}</p>
+
+<a href="/create/">Create New Project</a>
+
+<ul>
+{% for project in projects %}
+    <li>
+        <strong>{{ project.name }}</strong> - {{ project.status }}
+    </li>
+{% endfor %}
+</ul>
